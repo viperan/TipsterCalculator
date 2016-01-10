@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A78E02D71C3F223A0004E976 /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E02D61C3F223A0004E976 /* calculatorViewController.swift */; };
 		A7DC0C651C222DAD00AE4D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0C641C222DAD00AE4D79 /* AppDelegate.swift */; };
-		A7DC0C671C222DAD00AE4D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0C661C222DAD00AE4D79 /* ViewController.swift */; };
+		A7DC0C671C222DAD00AE4D79 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC0C661C222DAD00AE4D79 /* BackgroundViewController.swift */; };
 		A7DC0C6A1C222DAE00AE4D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0C681C222DAE00AE4D79 /* Main.storyboard */; };
 		A7DC0C6C1C222DAE00AE4D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0C6B1C222DAE00AE4D79 /* Assets.xcassets */; };
 		A7DC0C6F1C222DAE00AE4D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DC0C6D1C222DAE00AE4D79 /* LaunchScreen.storyboard */; };
@@ -34,17 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A7DC0C611C222DAD00AE4D79 /* UserDefaultsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E02D61C3F223A0004E976 /* calculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
+		A7DC0C611C222DAD00AE4D79 /* TipsterCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsterCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DC0C641C222DAD00AE4D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7DC0C661C222DAD00AE4D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7DC0C661C222DAD00AE4D79 /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 		A7DC0C691C222DAE00AE4D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7DC0C6B1C222DAE00AE4D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7DC0C6E1C222DAE00AE4D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7DC0C701C222DAE00AE4D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DC0C751C222DAE00AE4D79 /* UserDefaultsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DC0C751C222DAE00AE4D79 /* TipsterCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DC0C791C222DAE00AE4D79 /* UserDefaultsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExampleTests.swift; sourceTree = "<group>"; };
 		A7DC0C7B1C222DAE00AE4D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DC0C801C222DAE00AE4D79 /* UserDefaultsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DC0C801C222DAE00AE4D79 /* TipsterCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DC0C841C222DAE00AE4D79 /* UserDefaultsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExampleUITests.swift; sourceTree = "<group>"; };
 		A7DC0C861C222DAE00AE4D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +79,9 @@
 		A7DC0C581C222DAD00AE4D79 = {
 			isa = PBXGroup;
 			children = (
-				A7DC0C631C222DAD00AE4D79 /* UserDefaultsExample */,
-				A7DC0C781C222DAE00AE4D79 /* UserDefaultsExampleTests */,
-				A7DC0C831C222DAE00AE4D79 /* UserDefaultsExampleUITests */,
+				A7DC0C631C222DAD00AE4D79 /* TipsterCalculatorExample */,
+				A7DC0C781C222DAE00AE4D79 /* TipsterCalculatorExampleTests */,
+				A7DC0C831C222DAE00AE4D79 /* TipsterCalculatorExampleUITests */,
 				A7DC0C621C222DAD00AE4D79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +89,54 @@
 		A7DC0C621C222DAD00AE4D79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7DC0C611C222DAD00AE4D79 /* UserDefaultsExample.app */,
-				A7DC0C751C222DAE00AE4D79 /* UserDefaultsExampleTests.xctest */,
-				A7DC0C801C222DAE00AE4D79 /* UserDefaultsExampleUITests.xctest */,
+				A7DC0C611C222DAD00AE4D79 /* TipsterCalculator.app */,
+				A7DC0C751C222DAE00AE4D79 /* TipsterCalculator.xctest */,
+				A7DC0C801C222DAE00AE4D79 /* TipsterCalculator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7DC0C631C222DAD00AE4D79 /* UserDefaultsExample */ = {
+		A7DC0C631C222DAD00AE4D79 /* TipsterCalculatorExample */ = {
 			isa = PBXGroup;
 			children = (
 				A7DC0C641C222DAD00AE4D79 /* AppDelegate.swift */,
-				A7DC0C661C222DAD00AE4D79 /* ViewController.swift */,
+				A7DC0C661C222DAD00AE4D79 /* BackgroundViewController.swift */,
 				A7DC0C681C222DAE00AE4D79 /* Main.storyboard */,
+				A78E02D61C3F223A0004E976 /* calculatorViewController.swift */,
 				A7DC0C6B1C222DAE00AE4D79 /* Assets.xcassets */,
 				A7DC0C6D1C222DAE00AE4D79 /* LaunchScreen.storyboard */,
 				A7DC0C701C222DAE00AE4D79 /* Info.plist */,
 			);
+			name = TipsterCalculatorExample;
 			path = UserDefaultsExample;
 			sourceTree = "<group>";
 		};
-		A7DC0C781C222DAE00AE4D79 /* UserDefaultsExampleTests */ = {
+		A7DC0C781C222DAE00AE4D79 /* TipsterCalculatorExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				A7DC0C791C222DAE00AE4D79 /* UserDefaultsExampleTests.swift */,
 				A7DC0C7B1C222DAE00AE4D79 /* Info.plist */,
 			);
+			name = TipsterCalculatorExampleTests;
 			path = UserDefaultsExampleTests;
 			sourceTree = "<group>";
 		};
-		A7DC0C831C222DAE00AE4D79 /* UserDefaultsExampleUITests */ = {
+		A7DC0C831C222DAE00AE4D79 /* TipsterCalculatorExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A7DC0C841C222DAE00AE4D79 /* UserDefaultsExampleUITests.swift */,
 				A7DC0C861C222DAE00AE4D79 /* Info.plist */,
 			);
+			name = TipsterCalculatorExampleUITests;
 			path = UserDefaultsExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7DC0C601C222DAD00AE4D79 /* UserDefaultsExample */ = {
+		A7DC0C601C222DAD00AE4D79 /* TipsterCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DC0C891C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExample" */;
+			buildConfigurationList = A7DC0C891C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculator" */;
 			buildPhases = (
 				A7DC0C5D1C222DAD00AE4D79 /* Sources */,
 				A7DC0C5E1C222DAD00AE4D79 /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = UserDefaultsExample;
+			name = TipsterCalculator;
 			productName = UserDefaultsExample;
-			productReference = A7DC0C611C222DAD00AE4D79 /* UserDefaultsExample.app */;
+			productReference = A7DC0C611C222DAD00AE4D79 /* TipsterCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7DC0C741C222DAE00AE4D79 /* UserDefaultsExampleTests */ = {
+		A7DC0C741C222DAE00AE4D79 /* TipsterCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DC0C8C1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExampleTests" */;
+			buildConfigurationList = A7DC0C8C1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculatorTests" */;
 			buildPhases = (
 				A7DC0C711C222DAE00AE4D79 /* Sources */,
 				A7DC0C721C222DAE00AE4D79 /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				A7DC0C771C222DAE00AE4D79 /* PBXTargetDependency */,
 			);
-			name = UserDefaultsExampleTests;
+			name = TipsterCalculatorTests;
 			productName = UserDefaultsExampleTests;
-			productReference = A7DC0C751C222DAE00AE4D79 /* UserDefaultsExampleTests.xctest */;
+			productReference = A7DC0C751C222DAE00AE4D79 /* TipsterCalculator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A7DC0C7F1C222DAE00AE4D79 /* UserDefaultsExampleUITests */ = {
+		A7DC0C7F1C222DAE00AE4D79 /* TipsterCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DC0C8F1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExampleUITests" */;
+			buildConfigurationList = A7DC0C8F1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculatorUITests" */;
 			buildPhases = (
 				A7DC0C7C1C222DAE00AE4D79 /* Sources */,
 				A7DC0C7D1C222DAE00AE4D79 /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				A7DC0C821C222DAE00AE4D79 /* PBXTargetDependency */,
 			);
-			name = UserDefaultsExampleUITests;
+			name = TipsterCalculatorUITests;
 			productName = UserDefaultsExampleUITests;
-			productReference = A7DC0C801C222DAE00AE4D79 /* UserDefaultsExampleUITests.xctest */;
+			productReference = A7DC0C801C222DAE00AE4D79 /* TipsterCalculator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7DC0C5C1C222DAD00AE4D79 /* Build configuration list for PBXProject "UserDefaultsExample" */;
+			buildConfigurationList = A7DC0C5C1C222DAD00AE4D79 /* Build configuration list for PBXProject "TipsterCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7DC0C601C222DAD00AE4D79 /* UserDefaultsExample */,
-				A7DC0C741C222DAE00AE4D79 /* UserDefaultsExampleTests */,
-				A7DC0C7F1C222DAE00AE4D79 /* UserDefaultsExampleUITests */,
+				A7DC0C601C222DAD00AE4D79 /* TipsterCalculator */,
+				A7DC0C741C222DAE00AE4D79 /* TipsterCalculatorTests */,
+				A7DC0C7F1C222DAE00AE4D79 /* TipsterCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DC0C671C222DAD00AE4D79 /* ViewController.swift in Sources */,
+				A78E02D71C3F223A0004E976 /* calculatorViewController.swift in Sources */,
+				A7DC0C671C222DAD00AE4D79 /* BackgroundViewController.swift in Sources */,
 				A7DC0C651C222DAD00AE4D79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		A7DC0C771C222DAE00AE4D79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7DC0C601C222DAD00AE4D79 /* UserDefaultsExample */;
+			target = A7DC0C601C222DAD00AE4D79 /* TipsterCalculator */;
 			targetProxy = A7DC0C761C222DAE00AE4D79 /* PBXContainerItemProxy */;
 		};
 		A7DC0C821C222DAE00AE4D79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7DC0C601C222DAD00AE4D79 /* UserDefaultsExample */;
+			target = A7DC0C601C222DAD00AE4D79 /* TipsterCalculator */;
 			targetProxy = A7DC0C811C222DAE00AE4D79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,8 +408,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UserDefaultsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.TipsterCalculator;
+				PRODUCT_NAME = TipsterCalculator;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,8 +420,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UserDefaultsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.TipsterCalculator;
+				PRODUCT_NAME = TipsterCalculator;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -424,8 +433,8 @@
 				INFOPLIST_FILE = UserDefaultsExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserDefaultsExample.app/UserDefaultsExample";
+				PRODUCT_NAME = TipsterCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsterCalculator.app/TipsterCalculator";
 			};
 			name = Debug;
 		};
@@ -436,8 +445,8 @@
 				INFOPLIST_FILE = UserDefaultsExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserDefaultsExample.app/UserDefaultsExample";
+				PRODUCT_NAME = TipsterCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsterCalculator.app/TipsterCalculator";
 			};
 			name = Release;
 		};
@@ -447,7 +456,7 @@
 				INFOPLIST_FILE = UserDefaultsExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsterCalculator;
 				TEST_TARGET_NAME = UserDefaultsExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -459,7 +468,7 @@
 				INFOPLIST_FILE = UserDefaultsExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joujouapps.UserDefaultsExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsterCalculator;
 				TEST_TARGET_NAME = UserDefaultsExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7DC0C5C1C222DAD00AE4D79 /* Build configuration list for PBXProject "UserDefaultsExample" */ = {
+		A7DC0C5C1C222DAD00AE4D79 /* Build configuration list for PBXProject "TipsterCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DC0C871C222DAE00AE4D79 /* Debug */,
@@ -477,29 +486,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7DC0C891C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExample" */ = {
+		A7DC0C891C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DC0C8A1C222DAE00AE4D79 /* Debug */,
 				A7DC0C8B1C222DAE00AE4D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A7DC0C8C1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExampleTests" */ = {
+		A7DC0C8C1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DC0C8D1C222DAE00AE4D79 /* Debug */,
 				A7DC0C8E1C222DAE00AE4D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A7DC0C8F1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "UserDefaultsExampleUITests" */ = {
+		A7DC0C8F1C222DAE00AE4D79 /* Build configuration list for PBXNativeTarget "TipsterCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DC0C901C222DAE00AE4D79 /* Debug */,
 				A7DC0C911C222DAE00AE4D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
