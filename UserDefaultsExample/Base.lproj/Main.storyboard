@@ -90,7 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="444" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="9Bd-6z-dmq">
-                                <rect key="frame" x="0.0" y="65" width="320" height="261"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TX6-pq-dfK">
@@ -171,10 +171,6 @@
                                 <rect key="frame" x="20" y="446" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="DlB-y0-a5N">
-                                <rect key="frame" x="56" y="354" width="38" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="OFq-dY-CAx">
                                 <rect key="frame" x="56" y="400" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -183,16 +179,8 @@
                                 <rect key="frame" x="56" y="446" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="A0N-fx-JlC">
-                                <rect key="frame" x="92" y="400" width="38" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="TIf-Jt-yz5">
                                 <rect key="frame" x="92" y="446" width="38" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="SIE-5B-VST">
-                                <rect key="frame" x="20" y="354" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="UQo-je-jOd">
@@ -220,6 +208,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="A0N-fx-JlC">
+                                <rect key="frame" x="92" y="400" width="38" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="SIE-5B-VST">
+                                <rect key="frame" x="20" y="354" width="38" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="DlB-y0-a5N">
+                                <rect key="frame" x="56" y="354" width="38" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -233,6 +233,15 @@
                     <connections>
                         <outlet property="billField" destination="O5v-wn-mfS" id="GP5-ju-mDx"/>
                         <outlet property="fourPersonSplit" destination="Neg-pF-6dM" id="gWE-4Z-xHv"/>
+                        <outlet property="people21" destination="SIE-5B-VST" id="VUx-UX-1iN"/>
+                        <outlet property="people22" destination="DlB-y0-a5N" id="Wuz-qf-ajI"/>
+                        <outlet property="people31" destination="6oO-VM-027" id="g4f-3H-KQO"/>
+                        <outlet property="people32" destination="OFq-dY-CAx" id="Aca-GG-eLu"/>
+                        <outlet property="people33" destination="A0N-fx-JlC" id="7bM-Fh-MeX"/>
+                        <outlet property="people41" destination="xcs-Ye-WdB" id="qrS-Ej-Grp"/>
+                        <outlet property="people42" destination="SpO-wb-mVm" id="R4N-15-1dW"/>
+                        <outlet property="people43" destination="TIf-Jt-yz5" id="47M-mu-4st"/>
+                        <outlet property="people44" destination="UQo-je-jOd" id="pP9-Rc-1Mn"/>
                         <outlet property="threePersonSplit" destination="6dQ-vW-yWd" id="sq9-H1-HGM"/>
                         <outlet property="tipControl" destination="02c-S8-1qA" id="1Gt-2o-xBE"/>
                         <outlet property="tipLabel" destination="P4T-QH-qOT" id="Sro-fc-k1E"/>

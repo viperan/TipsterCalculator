@@ -20,6 +20,21 @@ class calculatorViewController: UIViewController {
     @IBOutlet weak var fourPersonSplit: UILabel!
     @IBOutlet weak var threePersonSplit: UILabel!
     @IBOutlet weak var twoPersonSplit: UILabel!
+
+    //outlet for Images use for animate the person image
+    
+    @IBOutlet weak var people21: UIImageView!
+    @IBOutlet weak var people22: UIImageView!
+    
+    @IBOutlet weak var people31: UIImageView!
+    @IBOutlet weak var people32: UIImageView!
+    @IBOutlet weak var people33: UIImageView!
+    
+    @IBOutlet weak var people41: UIImageView!
+    @IBOutlet weak var people42: UIImageView!
+    @IBOutlet weak var people43: UIImageView!
+    @IBOutlet weak var people44: UIImageView!
+    
     
     let userDefaults = NSUserDefaults.standardUserDefaults()
     
@@ -60,7 +75,14 @@ class calculatorViewController: UIViewController {
             // if empty string then set the bill amount to zero to empty out the value.
             billAmount = 0.0
         }
+        
+        
         recalculate()
+        UIView.animateWithDuration(1.0, animations: ({
+            self.rotatePeople()
+        }))
+
+        
 
     }
     override func didReceiveMemoryWarning() {
@@ -130,6 +152,46 @@ class calculatorViewController: UIViewController {
         twoPersonSplit.text = String(format: "$%.2f", total/2)
         threePersonSplit.text = String(format: "$%.2f", total/3)
         fourPersonSplit.text =  String(format: "$%.2f", total/4)
+        
+
+        
+    }
+    
+    func rotatePeople(){
+        
+        //print("rotate")
+        
+        let firstHalf = CGAffineTransformMakeRotation((180.0 * CGFloat(M_PI)) / 180.0)
+        let secondHalf = CGAffineTransformMakeRotation((0.0 * CGFloat(M_PI)) / 180.0)
+        
+        people21.transform = firstHalf
+        people21.transform = secondHalf
+        
+        people22.transform = firstHalf
+        people22.transform = secondHalf
+        
+        people31.transform = firstHalf
+        people31.transform = secondHalf
+        
+        people32.transform = firstHalf
+        people32.transform = secondHalf
+        
+        people33.transform = firstHalf
+        people33.transform = secondHalf
+        
+        people41.transform = firstHalf
+        people41.transform = secondHalf
+        
+        people42.transform = firstHalf
+        people42.transform = secondHalf
+        
+        people43.transform = firstHalf
+        people43.transform = secondHalf
+        
+        people44.transform = firstHalf
+        people44.transform = secondHalf
+        
+        
     }
     
 
