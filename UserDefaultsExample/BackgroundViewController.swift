@@ -18,6 +18,8 @@ class BackgroundViewController: UIViewController, UINavigationControllerDelegate
     
     @IBOutlet weak var defaultTipPercentage: UISegmentedControl!
     
+    @IBOutlet weak var currencyLabel: UILabel!
+    
     let userDefaults = NSUserDefaults.standardUserDefaults()
     
     
@@ -99,6 +101,9 @@ class BackgroundViewController: UIViewController, UINavigationControllerDelegate
             userDefaults.setObject(defaultPercentageNo, forKey: "defaultTip")
         }
         defaultTipPercentage.selectedSegmentIndex = defaultPercentageNo!
+        
+        let locale = NSLocale.currentLocale()
+        currencyLabel.text = locale.objectForKey(NSLocaleCurrencySymbol) as! String
         
     }
 

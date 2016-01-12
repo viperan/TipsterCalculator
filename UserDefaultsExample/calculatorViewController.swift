@@ -146,13 +146,13 @@ class calculatorViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        tipLabel.text = String(currencyFormat(tip))
+        totalLabel.text = String(currencyFormat(total))
         
-        twoPersonSplit.text = String(format: "$%.2f", total/2)
-        threePersonSplit.text = String(format: "$%.2f", total/3)
-        fourPersonSplit.text =  String(format: "$%.2f", total/4)
-        
+        twoPersonSplit.text = String(currencyFormat(total/2))
+        threePersonSplit.text = String(currencyFormat(total/3))
+        fourPersonSplit.text =  String(currencyFormat(total/4))
+        print(currencyFormat(total))
 
         
     }
@@ -192,6 +192,20 @@ class calculatorViewController: UIViewController {
         people44.transform = secondHalf
         
         
+    }
+    
+    func currencyFormat(number: Double) ->String{
+        let locale = NSLocale.currentLocale()
+        print(locale.objectForKey(NSLocaleCountryCode) as? String)
+        
+        var currencyFormatter = NSNumberFormatter()
+        currencyFormatter.locale = locale
+        currencyFormatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
+        
+        
+        let value = NSNumber(double: number)
+        //print (currencyFormatter.stringFromNumber(value)!)
+        return currencyFormatter.stringFromNumber(value)!
     }
     
 
